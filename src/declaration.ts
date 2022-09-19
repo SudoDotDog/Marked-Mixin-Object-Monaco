@@ -6,7 +6,7 @@
 
 export const MarkedObjectMixinDeclaration: Record<string, string> = {
 
-    keys: "<K, V>(object: Record<K, V>) => K[]",
-    values: "<K, V>(object: Record<K, V>) => V[]",
-    entries: "<K, V>(object: Record<K, V>) => Array<[K, V]>",
+    keys: "<K extends string | number, V>(object: Record<K, V>) => K[]",
+    values: "<K extends string | number, V>(object: Record<K, V>) => V[]",
+    entries: "<K extends string | number, V>(object: Record<K, V>) => Array<[K, V]>",
 };
