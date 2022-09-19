@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/SudoDotDog/Sudoo-Marked-Mixin-Object-Monaco#readme",
   "dependencies": {
-    "@sudoo/marked-monaco-mixin": "^1.1.0"
+    "@sudoo/marked-monaco-mixin": "^1.2.0"
   },
   "peerDependencies": {
     "@sudoo/marked": "*",
